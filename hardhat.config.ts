@@ -6,6 +6,7 @@ import { HardhatUserConfig } from "hardhat/types";
 import { NetworkUserConfig } from "hardhat/types";
 
 import "@nomiclabs/hardhat-ethers";
+import "@nomiclabs/hardhat-etherscan";
 import "uniswap-v3-deploy-plugin";
 
 
@@ -21,6 +22,7 @@ const chainIds = {
 
 const MNEMONIC = process.env.MNEMONIC || "";
 const INFURA_API_KEY = process.env.INFURA_API_KEY || "";
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "";
 
 function createTestnetConfig(network: keyof typeof chainIds): NetworkUserConfig {
   const url: string = "https://" + network + ".infura.io/v3/" + INFURA_API_KEY;
@@ -68,6 +70,9 @@ const config: HardhatUserConfig = {
         bytecodeHash: 'none',
       },
     },
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_API_KEY,
   },
 };
 

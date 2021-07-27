@@ -22,6 +22,7 @@ $ mv .env.example .env
 # Config your MNEMONIC and INFURA_API_KEY in .env
 MNEMONIC=test test test test test test test test test test test test
 INFURA_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ETHERSCAN_API_KEY=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 ```
 
 Deploy to ethereum network
