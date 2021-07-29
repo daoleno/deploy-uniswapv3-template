@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@daoleno/uniswap-v3-deploy-plugin@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.nlark.com/@daoleno/uniswap-v3-deploy-plugin/download/@daoleno/uniswap-v3-deploy-plugin-0.1.1.tgz?cache=0&sync_timestamp=1627534329431&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40daoleno%2Funiswap-v3-deploy-plugin%2Fdownload%2F%40daoleno%2Funiswap-v3-deploy-plugin-0.1.1.tgz#5fc6a6f2c181170c090f8af0164539c0d55b3972"
+  integrity sha1-X8am8sGBFwwJD4rwFkU5wNVbOXI=
+  dependencies:
+    "@uniswap/v3-core" "1.0.0"
+    "@uniswap/v3-periphery" "^1.0.1"
+    cli-table3 "^0.6.0"
+
 "@ethereumjs/block@^3.4.0":
   version "3.4.0"
   resolved "https://registry.nlark.com/@ethereumjs/block/download/@ethereumjs/block-3.4.0.tgz#4747b0c06220ee10cbdfe1cbde8cbb0677b1b074"
@@ -2672,15 +2681,6 @@ unbox-primitive@^1.0.1:
     has-bigints "^1.0.1"
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
-
-uniswap-v3-deploy-plugin@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.nlark.com/uniswap-v3-deploy-plugin/download/uniswap-v3-deploy-plugin-0.1.0.tgz#dd1798106373c16108aa2b5a0ec3b176c5c51d43"
-  integrity sha1-3ReYEGNzwWEIqitaDsOxdsXFHUM=
-  dependencies:
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "^1.0.1"
-    cli-table3 "^0.6.0"
 
 universalify@^0.1.0:
   version "0.1.2"

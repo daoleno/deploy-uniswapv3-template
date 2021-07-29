@@ -7,7 +7,7 @@ import { NetworkUserConfig } from "hardhat/types";
 
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-etherscan";
-import "uniswap-v3-deploy-plugin";
+import "@daoleno/uniswap-v3-deploy-plugin";
 
 
 const chainIds = {
