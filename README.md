@@ -52,7 +52,3 @@ $ npx hardhat verify --config hardhat.config.nftDescriptor.ts --network goerli p
 # verify positionManager
 $ npx hardhat verify --config hardhat.config.positionManager.ts --network goerli positionManager_address "factory_address" "weth9_address" "positionDescriptor_address"
 ```
-
-## Donate
-
-ETH: 0x67CF3bF40b2b3b3D68F6c361AEf81F8AEb2dB637
